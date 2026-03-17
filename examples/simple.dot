@@ -1,0 +1,10 @@
+digraph CFG {
+   block_0;
+   block_0 -> left;
+   block_0 -> right;
+   left;
+   left -> end;
+   right;
+   right -> end;
+   end;
+}

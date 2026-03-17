@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:y="http://www.yworks.com/xml/graphml"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+                             http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+  <key id="d0" for="node" yfiles.type="nodegraphics"/>
+  <key id="d1" for="edge" yfiles.type="edgegraphics"/>
+  <graph id="G" edgedefault="directed">
+
+    <node id="n_block_0">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry x="157.5" y="-405.0" width="81.2088" height="36.0"/>
+          <y:Fill color="#D9EAD3" transparent="false"/>
+          <y:BorderStyle color="#38761D" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" hasBackgroundColor="false" hasLineColor="false"
+                       fontFamily="Consolas" fontSize="11" textColor="#1F4E79"><![CDATA[<html><table border="1" cellpadding="3" cellspacing="0" style="font-family: Consolas; font-size: 11pt; color: #1F4E79;"><tr><td colspan="1" align="center"><b>block_0</b></td></tr></table></html>]]></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n_left">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry x="67.5" y="-225.0" width="54.0" height="36.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F4E79" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" hasBackgroundColor="false" hasLineColor="false"
+                       fontFamily="Consolas" fontSize="11" textColor="#1F4E79"><![CDATA[<html><table border="1" cellpadding="3" cellspacing="0" style="font-family: Consolas; font-size: 11pt; color: #1F4E79;"><tr><td colspan="1" align="center"><b>left</b></td></tr></table></html>]]></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n_right">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry x="250.0" y="-225.0" width="56.64024" height="36.0"/>
+          <y:Fill color="#FFFFFF" transparent="false"/>
+          <y:BorderStyle color="#1F4E79" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" hasBackgroundColor="false" hasLineColor="false"
+                       fontFamily="Consolas" fontSize="11" textColor="#1F4E79"><![CDATA[<html><table border="1" cellpadding="3" cellspacing="0" style="font-family: Consolas; font-size: 11pt; color: #1F4E79;"><tr><td colspan="1" align="center"><b>right</b></td></tr></table></html>]]></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <node id="n_end">
+      <data key="d0">
+        <y:ShapeNode>
+          <y:Geometry x="157.5" y="-45.0" width="54.0" height="36.0"/>
+          <y:Fill color="#F4CCCC" transparent="false"/>
+          <y:BorderStyle color="#990000" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" hasBackgroundColor="false" hasLineColor="false"
+                       fontFamily="Consolas" fontSize="11" textColor="#1F4E79"><![CDATA[<html><table border="1" cellpadding="3" cellspacing="0" style="font-family: Consolas; font-size: 11pt; color: #1F4E79;"><tr><td colspan="1" align="center"><b>end</b></td></tr></table></html>]]></y:NodeLabel>
+          <y:Shape type="rectangle"/>
+        </y:ShapeNode>
+      </data>
+    </node>
+    <edge id="e1" source="n_block_0" target="n_left">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1155CC" type="line" width="1.2"/>
+          <y:Arrows source="none" target="standard"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e2" source="n_block_0" target="n_right">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1155CC" type="line" width="1.2"/>
+          <y:Arrows source="none" target="standard"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e3" source="n_left" target="n_end">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1155CC" type="line" width="1.2"/>
+          <y:Arrows source="none" target="standard"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+    <edge id="e4" source="n_right" target="n_end">
+      <data key="d1">
+        <y:PolyLineEdge>
+          <y:LineStyle color="#1155CC" type="line" width="1.2"/>
+          <y:Arrows source="none" target="standard"/>
+        </y:PolyLineEdge>
+      </data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,0 +1,43 @@
+{
+  "graphviz": {
+    "dot_executable": "F:\\\\Downloads\\\\Graphviz\\\\bin\\\\dot"
+  },
+  "nodes": {
+    "default": {
+      "fill_color": "#FFF2CC",
+      "border_color": "#7F6000",
+      "border_width": 1.5,
+      "shape": "roundrectangle",
+      "font_family": "Consolas",
+      "font_size": 14,
+      "font_color": "#000000"
+    },
+    "table": {
+      "fill_color": "#FFFFFF",
+      "border_color": "#1F4E79",
+      "border_width": 1.0,
+      "shape": "rectangle",
+      "font_family": "Consolas",
+      "font_size": 11,
+      "font_color": "#1F4E79"
+    },
+    "overrides": [
+      { "match": "^block_0$", "style": { "fill_color": "#D9EAD3", "border_color": "#38761D" } },
+      { "match": "^end$", "style": { "fill_color": "#F4CCCC", "border_color": "#990000" } }
+    ]
+  },
+  "edges": {
+    "default": {
+      "color": "#1155CC",
+      "width": 1.2,
+      "style": "line",
+      "arrow_target": "standard",
+      "arrow_source": "none"
+    },
+    "bold_width": 2.5,
+    "color_map": {
+      "blue": "#1155CC",
+      "red": "#CC0000"
+    }
+  }
+}
